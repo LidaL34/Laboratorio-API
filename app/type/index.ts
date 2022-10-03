@@ -1,4 +1,7 @@
 export interface Characters {
-    author: string;
-    quote: string;
+    category: string;
+    gender: string;
+    name: string
+    real_name: string;
+    status: string;
 }

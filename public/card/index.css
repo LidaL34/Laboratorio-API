@@ -1,0 +1,73 @@
+
+.main {
+    margin: 0;
+    padding: 0px 0px 0px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main .name{
+    position: relative;
+    top: 29px;
+    left: 48px;
+}
+
+.main .realName{
+    font-size: 7pt;
+    position: relative;
+    top: 11px;
+    left: 48px;
+}
+
+.main .gender{
+    font-size: 10pt;
+    position: relative;
+    bottom: 22px;
+    left: 201px;
+}
+
+.main .id{
+    font-weight: 700;
+    font-size: 12pt;
+    position: relative;
+    bottom: 21px;
+    left: 200px;
+}
+
+.main .status{
+    font-weight: 700;
+    font-size: 12pt;
+    position: relative;
+    bottom: 402px;
+    left: 146px;
+}
+
+.cards {
+    margin: 0px 0px -325px 0px;
+    padding: 0px 0px 0px 40px;
+}
+.cards img {
+    border-radius: 7%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 185px;
+    left: 5px;
+    
+
+}
+
+.cards .card {
+    width: 280px;
+    height: 179px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(182, 181, 181, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#f8a145, #f07900 50%,#D35100);
+   }
+   
+   .cards .card__content {
+    background: rgb(255, 255, 255);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+   }

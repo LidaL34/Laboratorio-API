@@ -8,8 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 export const getQuotes = () => __awaiter(void 0, void 0, void 0, function* () {
-    const response = yield fetch("https://strangerthings-quotes.vercel.app/api/quotes/5");
+    const response = yield fetch("https://orange-api.herokuapp.com/category/inmate");
     const data = yield response.json();
-    console.log(data.results);
-    return data.results;
+    console.log(data);
+    return data;
 });
